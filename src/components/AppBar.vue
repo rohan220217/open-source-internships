@@ -46,7 +46,7 @@
         value="1"
         x-large
         text
-        @click="$router.push('/osi')"
+        @click="$router.push('/')"
         class="button-size"
       >
         🐱‍💻 OSI"

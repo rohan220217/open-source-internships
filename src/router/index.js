@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/osi',
+    path: '/',
     name: 'Osi',
     component: Osi
   },
@@ -24,7 +24,6 @@ const routes = [
 
 const router = new VueRouter({
   routes,  
-  mode: 'history'
 })
 
 export default router
