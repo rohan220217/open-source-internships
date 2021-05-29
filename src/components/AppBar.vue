@@ -6,7 +6,8 @@
         @click="drawer = !drawer"
       ></v-app-bar-nav-icon>
       <v-container class="py-0 fill-height">
-        <v-avatar class="mr-10" color="grey darken-1" size="32"></v-avatar>
+        <!-- <v-avatar class="mr-10" color="grey darken-1" size="32"></v-avatar> -->
+     
         <v-spacer></v-spacer>
 
         <v-btn
@@ -18,7 +19,6 @@
         >
           {{ link }}
         </v-btn>
-
 
         <!-- <v-responsive max-width="260">
           <v-text-field
@@ -63,7 +63,7 @@
 export default {
   data: () => ({
     drawer: null,
-    links: ["Dashboard", "Messages", "Profile", "Updates"],
+    links: ["🐱‍💻 OSI", "😁 About", "💪 Team", "⭐ This project"],
   }),
 };
 </script>

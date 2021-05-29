@@ -2,9 +2,15 @@
   <v-container>
     <v-card flat>
       <v-card-title class="text-center justify-center py-6">
-        <h1 class="font-weight-bold display-1 basil--text">
+        <v-img
+          height="80"
+          width="0"
+          contain
+          :src="require('@/assets/logo2.gif')"
+        ></v-img>
+        <!-- <h1 class="font-weight-bold display-1 basil--text">
           Open-Source-Internships
-        </h1>
+        </h1> -->
       </v-card-title>
 
       <v-tabs
@@ -30,10 +36,8 @@
               v-for="item in texts"
               :key="item"
             >
-            <single-card :content="item"></single-card>
-             
-            </v-col></v-row
-          >
+              <single-card :content="item"></single-card> </v-col
+          ></v-row>
         </v-tab-item>
       </v-tabs-items>
     </div>
