@@ -1,43 +1,77 @@
 <template>
   <v-container>
-    <v-row>
-      <v-col cols="2">
-        <v-sheet color="red" rounded="lg">
-          <v-list color="transparent">
-            <v-list-item v-for="n in 5" :key="n" link>
-              <v-list-item-content>
-                <v-list-item-title> List Item {{ n }} </v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
+    <v-card flat>
+      <v-card-title class="text-center justify-center py-6">
+        <h1 class="font-weight-bold display-1 basil--text">
+          Open-Source-Internships
+        </h1>
+      </v-card-title>
 
-            <v-divider class="my-2"></v-divider>
-
-            <v-list-item link color="grey lighten-4">
-              <v-list-item-content>
-                <v-list-item-title> Refresh </v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
-        </v-sheet>
-      </v-col>
-
-      <v-col>
-        <v-sheet color="blue" min-height="70vh" rounded="lg">
-          <!--  -->
-        </v-sheet>
-      </v-col>
-    </v-row>
+      <v-tabs
+        show-arrows
+        v-model="tab"
+        background-color="transparent"
+        color="basil"
+        grow
+      >
+        <v-tab v-for="item in items" :key="item">
+          {{ item }}
+        </v-tab>
+      </v-tabs>
+    </v-card>
+    <div class="mt-3">
+      <v-tabs-items v-model="tab" class="pa-4">
+        <v-tab-item v-for="item in items" :key="item">
+          <v-row>
+            <v-col
+              class="pa-2"
+              cols="12"
+              md="4"
+              v-for="item in texts"
+              :key="item"
+            >
+            <single-card :content="item"></single-card>
+             
+            </v-col></v-row
+          >
+        </v-tab-item>
+      </v-tabs-items>
+    </div>
   </v-container>
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import SingleCard from "../components/SingleCard";
 
 export default {
   name: "Home",
 
   components: {
-    HelloWorld,
+    SingleCard,
+  },
+  data() {
+    return {
+      tab: null,
+      show: false,
+      items: ["Programs", "Competitions", "University SoC/WoC"],
+      texts: [
+        "losdfffffffffffffffffffffffffffff",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "fdskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      ],
+    };
   },
 };
 </script>
+<style scoped>
+.basil {
+  background-color: #fffbe6 !important;
+}
+.basil--text {
+  color: #356859 !important;
+}
+.v-tabs-items {
+  background-color: transparent !important;
+}
+</style>
