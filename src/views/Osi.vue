@@ -1,7 +1,7 @@
 <template>
-
+  <div>
     <v-container>
-      <v-card flat>
+      <v-card flat :dark="isDark == 'dark'">
         <v-card-title class="text-center justify-center py-6">
           <v-img
             height="80"
@@ -42,13 +42,35 @@
         <v-tabs-items v-model="tab" class="pa-4"> </v-tabs-items>
       </div>
     </v-container>
- 
+    <v-tooltip left>
+      <template #activator="{ on: tooltip }">
+        <v-btn
+          v-on="{ ...tooltip }"
+          absolute
+          dark
+          fixed
+          fab
+          bottom
+          right
+          color="purple"
+          style="bottom: 55px"
+          @click="toggleDark()"
+        >
+          <v-icon>{{
+            isDark == "dark" ? "mdi-white-balance-sunny" : "mdi-weather-night"
+          }}</v-icon>
+        </v-btn>
+      </template>
+      <span>Day/ Night Mode</span>
+    </v-tooltip>
+  </div>
 </template>
 
 <script>
 import Programs from "../components/Programs";
 import University from "../components/University";
 import Competition from "../components/Competition";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "Home",
@@ -65,12 +87,16 @@ export default {
       items: ["Programs", "Competitions", "University SoC/WoC"],
     };
   },
-
+  methods: {
+    ...mapActions(["toggleDark"]),
+  },
+  computed: {
+    ...mapGetters(["isDark"]),
+  },
 };
 </script>
 <style scoped>
 .v-tabs-items {
   background-color: transparent !important;
 }
-
 </style>

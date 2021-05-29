@@ -2,7 +2,14 @@
   <v-app>
     <v-main>
       <v-fade-transition mode="out-in">
-        <div id="studentQuiz">
+        <div
+          id="studentQuiz"
+          :style="[
+            isDark == 'dark'
+              ? { backgroundColor: 'black' }
+              : { backgroundColor: 'white' },
+          ]"
+        >
           <div id="particles-js"></div>
           <router-view />
         </div>
@@ -14,6 +21,7 @@
 
 <script>
 import AppBar from "@/components/AppBar";
+import { mapGetters } from "vuex";
 import "particles.js";
 export default {
   name: "App",
@@ -39,13 +47,13 @@ export default {
             },
           },
           color: {
-            value: "#ffffff",
+            value: "#4ebeef",
           },
           shape: {
             type: "star",
             stroke: {
               width: 0,
-              color: "#000000",
+              color: "#85e598",
             },
             polygon: {
               nb_sides: 5,
@@ -74,7 +82,7 @@ export default {
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#ffffff",
+            color: "#85e598",
             opacity: 0.4,
             width: 1,
           },
@@ -136,25 +144,27 @@ export default {
       });
     },
   },
+  computed: {
+    ...mapGetters(["isDark"]),
+  },
 };
 </script>
 <style>
-
 #studentQuiz {
   min-height: 100vh;
   height: 100%;
 
-  background: #2193b0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  /* background: #FFF2CC;  */
+  /* background: -webkit-linear-gradient(
     to right,
-    #6dd5ed,
-    #2193b0
-  ); /* Chrome 10-25, Safari 5.1-6 */
+    #FFF2CC,
+    #FCFFE9
+  );
   background: linear-gradient(
     to right,
-    #6dd5ed,
-    #2193b0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    #FFF2CC,
+    #FCFFE9
+  );  */
 }
 #particles-js {
   position: fixed;

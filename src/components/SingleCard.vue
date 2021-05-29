@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card :color="content.color" class="pt-2">
     <v-img
       :src="content.image"
       :lazy-src="content.image"
@@ -77,7 +77,7 @@
     </v-card-subtitle>
 
     <v-card-actions>
-      <v-btn color="orange lighten-1" text @click="openLink(content.timeline)">
+      <v-btn color="orange" text @click="openLink(content.timeline)">
         Timeline
       </v-btn>
 
@@ -106,6 +106,7 @@ export default {
     content: {
       type: Object,
     },
+  
   },
   data() {
     return {

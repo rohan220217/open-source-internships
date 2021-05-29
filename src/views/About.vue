@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card flat>
+    <v-card flat :dark="isDark == 'dark'">
       <v-card-title class="text-center justify-center py-6">
         <v-img
           height="80"
@@ -13,7 +13,7 @@
         </h1> -->
       </v-card-title>
     </v-card>
-    <v-card flat class="mt-3 text-center">
+    <v-card flat class="mt-3 text-center" :dark="isDark == 'dark'">
       <v-card-text>
         <p class="headline" style="color: #3f51b5">About</p>
         <div>
@@ -24,7 +24,7 @@
         </div>
       </v-card-text>
     </v-card>
-    <v-card flat class="mt-3 text-center">
+    <v-card flat class="mt-3 text-center" :dark="isDark == 'dark'">
       <v-card-text>
         <p class="headline" style="color: #3f51b5">Contact</p>
         <div>
@@ -84,3 +84,12 @@
     </v-card>
   </v-container>
 </template>
+
+<script>
+import { mapGetters } from "vuex";
+export default {
+  computed: {
+    ...mapGetters(["isDark"]),
+  },
+};
+</script>

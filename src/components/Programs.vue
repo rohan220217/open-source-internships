@@ -1,7 +1,7 @@
 <template>
     <v-row>
       <v-col
-        class="pa-2"
+        class="pa-3"
         cols="12"
         md="4"
         sm="6"
