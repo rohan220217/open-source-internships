@@ -1,8 +1,8 @@
 <template>
   <v-card>
     <v-img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png"
-      lazy-src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png"
+      :src="content.image"
+      :lazy-src="content.image"
       height="100px"
       contain
     >
@@ -15,10 +15,10 @@
         </v-row> </template
     ></v-img>
 
-    <v-card-title> Google Summer of Code </v-card-title>
+    <v-card-title> {{content.title}} </v-card-title>
 
-    <v-card-subtitle class="pb-0"> Begins on - 31 July 2021 </v-card-subtitle>
-    <v-card-subtitle class="pt-0"> Ends on - 31 July 2021 </v-card-subtitle>
+    <v-card-subtitle class="pb-0"> Begins on - {{content.start_date}} </v-card-subtitle>
+    <v-card-subtitle class="pt-0"> Ends on - {{content.end_date}} </v-card-subtitle>
     <v-card-subtitle class="py-0 px-2">
       <v-chip small class="ma-2" color="deep-purple accent-4" outlined>
         <v-icon x-small left> mdi-wrench </v-icon>
@@ -49,7 +49,7 @@
         <v-divider></v-divider>
 
         <v-card-text>
-          {{ content }}
+          {{ content.description }}
         </v-card-text>
       </div>
     </v-expand-transition>
@@ -60,8 +60,7 @@
 export default {
   props: {
     content: {
-      type: String,
-      default: "Empty",
+      type: Object,
     },
   },
   data() {

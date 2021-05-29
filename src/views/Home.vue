@@ -33,10 +33,10 @@
               class="pa-2"
               cols="12"
               md="4"
-              v-for="item in texts"
-              :key="item"
+              v-for="program in allPrograms"
+              :key="program._id"
             >
-              <single-card :content="item"></single-card> </v-col
+              <single-card :content="program"></single-card> </v-col
           ></v-row>
         </v-tab-item>
       </v-tabs-items>
@@ -46,6 +46,7 @@
 
 <script>
 import SingleCard from "../components/SingleCard";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "Home",
@@ -65,6 +66,9 @@ export default {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       ],
     };
+  },
+  computed: {
+    ...mapGetters(["allPrograms",]),
   },
 };
 </script>
