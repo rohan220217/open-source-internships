@@ -15,7 +15,7 @@ const state = {
 }
 
 const getters = {
-    allCompetition(state) {
+    allCompetitions(state) {
         return state.competition
     },
 
