@@ -46,7 +46,7 @@
         value="1"
         x-large
         text
-        @click="$router.push('/')"
+        @click="$router.push('/open-source-internships/')"
         class="button-size"
       >
         🐱‍💻 OSI"
@@ -54,7 +54,7 @@
 
       <v-btn
         value="1"
-        @click="$router.push('/about')"
+        @click="$router.push('/open-source-internships/about')"
         x-large
         text
         class="button-size"
