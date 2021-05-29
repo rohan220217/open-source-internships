@@ -24,23 +24,55 @@
       Ends on - {{ content.end_date }}
     </v-card-subtitle>
     <v-card-subtitle class="py-0 px-2">
-      <v-chip small class="ma-1" color="deep-purple accent-4" outlined>
+      <v-chip
+        small
+        class="ma-1"
+        color="deep-purple accent-4"
+        outlined
+        v-if="content.perks.swags"
+      >
         🤩 Swags
       </v-chip>
-      <v-chip small class="ma-1" color="deep-purple accent-4" outlined>
+      <v-chip
+        small
+        class="ma-1"
+        color="deep-purple accent-4"
+        outlined
+        v-if="content.perks.stipend"
+      >
         💸 Stipend
       </v-chip>
-      <v-chip small class="ma-1" color="deep-purple accent-4" outlined>
-        💰 Cash Price
+      <v-chip
+        small
+        class="ma-1"
+        color="deep-purple accent-4"
+        outlined
+        v-if="content.perks.cash_price"
+        > 💰 Cash Price
       </v-chip>
-      <v-chip small class="ma-1" color="deep-purple accent-4" outlined>
-        😎 Internships
+      <v-chip
+        small
+        class="ma-1"
+        color="deep-purple accent-4"
+        outlined
+        v-if="content.perks.internships_opportunity"
+        > 😎 Internships
       </v-chip>
-      <v-chip small class="ma-1" color="deep-purple accent-4" outlined>
-        📜 Certificate
+      <v-chip
+        small
+        class="ma-1"
+        color="deep-purple accent-4"
+        outlined
+        v-if="content.perks.certificates"
+        > 📜 Certificate
       </v-chip>
-      <v-chip small class="ma-1" color="deep-purple accent-4" outlined>
-        🎁 Surprise gift
+      <v-chip
+        small
+        class="ma-1"
+        color="deep-purple accent-4"
+        outlined
+        v-if="content.perks.surprise_gifts"
+        > 🎁 Surprise gift
       </v-chip>
     </v-card-subtitle>
 

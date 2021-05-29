@@ -4,6 +4,7 @@
         class="pa-2"
         cols="12"
         md="4"
+        sm="6"
         v-for="competition in allCompetitions"
         :key="competition._id"
       >

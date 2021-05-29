@@ -42,15 +42,28 @@
       </v-list>
     </v-navigation-drawer> -->
     <v-bottom-navigation color="indigo" v-model="value" app grow height="50">
-      <v-btn value="1" x-large text @click="$router.push('/osi')">
+      <v-btn
+        value="1"
+        x-large
+        text
+        @click="$router.push('/osi')"
+        class="button-size"
+      >
         🐱‍💻 OSI"
       </v-btn>
 
-      <v-btn value="1" @click="$router.push('/about')" x-large text>
+      <v-btn
+        value="1"
+        @click="$router.push('/about')"
+        x-large
+        text
+        class="button-size"
+      >
         😁 About
       </v-btn>
 
       <v-btn
+        class="button-size"
         value="1"
         href="https://github.com/rohan220217/Open-Source-Internships"
         x-large
@@ -72,5 +85,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.button-size {
+  font-size: 0.9rem !important;
+}
 </style>
