@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/open-source-internships',
     name: 'Osi',
     component: Osi
   },

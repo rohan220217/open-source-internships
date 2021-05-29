@@ -46,10 +46,10 @@
         value="1"
         x-large
         text
-        @click="$router.push('/')"
+        @click="$router.push('/open-source-internships')"
         class="button-size"
       >
-        🐱‍💻 OSI"
+        🐱‍💻 OSI
       </v-btn>
 
       <v-btn
