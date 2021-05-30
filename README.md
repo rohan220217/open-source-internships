@@ -10,20 +10,20 @@
 
 ## Run locally 🛠
 
-Clone the repo
+Clone the repo. ⏬
 ```
 git clone https://github.com/rohan220217/open-source-internships.git
 ```
-Change the folder location to your source code folder
+Change the folder location to your source code folder. 👉
 ```
 cd open-source-internships
 ```
 
-Install the dependencies and devDependencies.
+Install the dependencies and devDependencies. ⬇️
 ```
 npm install
 ```
-Compiles and hot-reloads for development
+Compiles and hot-reloads for development 🔃
 ```
 npm run serve
 ```
