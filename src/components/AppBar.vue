@@ -41,7 +41,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer> -->
-    <v-bottom-navigation color="indigo" v-model="value" app grow height="50"  :dark="isDark == 'dark'">
+    <v-bottom-navigation color="indigo" v-model="value" app grow height="50">
       <v-btn
         value="1"
         x-large
@@ -76,16 +76,13 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
 export default {
   data: () => ({
     drawer: null,
     links: ["🐱‍💻 OSI", "😁 About", "⭐ This project"],
     value: 1,
   }),
-    computed: {
-    ...mapGetters(["isDark"]),
-  },
+
 };
 </script>
 

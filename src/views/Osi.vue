@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <v-card flat :dark="isDark == 'dark'">
+      <v-card flat>
         <v-card-title class="text-center justify-center py-6">
           <v-img
             height="80"
@@ -54,10 +54,10 @@
           right
           color="purple"
           style="bottom: 55px"
-          @click="toggleDark()"
+          @click="$vuetify.theme.dark = !$vuetify.theme.dark;"
         >
           <v-icon>{{
-            isDark == "dark" ? "mdi-white-balance-sunny" : "mdi-weather-night"
+            $vuetify.theme.dark ? "mdi-white-balance-sunny" : "mdi-weather-night"
           }}</v-icon>
         </v-btn>
       </template>
@@ -70,7 +70,6 @@
 import Programs from "../components/Programs";
 import University from "../components/University";
 import Competition from "../components/Competition";
-import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "Home",
@@ -86,12 +85,6 @@ export default {
       show: false,
       items: ["Programs", "Competitions", "University SoC/WoC"],
     };
-  },
-  methods: {
-    ...mapActions(["toggleDark"]),
-  },
-  computed: {
-    ...mapGetters(["isDark"]),
   },
 };
 </script>

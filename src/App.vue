@@ -5,7 +5,7 @@
         <div
           id="studentQuiz"
           :style="[
-            isDark == 'dark'
+            $vuetify.theme.dark
               ? { backgroundColor: 'black' }
               : { backgroundColor: 'white' },
           ]"
@@ -21,7 +21,6 @@
 
 <script>
 import AppBar from "@/components/AppBar";
-import { mapGetters } from "vuex";
 import "particles.js";
 export default {
   name: "App",
@@ -144,9 +143,7 @@ export default {
       });
     },
   },
-  computed: {
-    ...mapGetters(["isDark"]),
-  },
+
 };
 </script>
 <style>
