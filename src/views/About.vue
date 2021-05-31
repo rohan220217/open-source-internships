@@ -19,12 +19,12 @@
         <div>
         
           For all the Computer science students out there, it is a strenuous task to look for open source internships, 
-          different types of coding competitions happening around the year.<\br>
+          different types of coding competitions happening around the year. <br><br>
           OSI is an idea to help the student community by providing them all kind of open-source opportunities for them 
-          at one place. Students no longer have to waste precious hours searching for them since we are here.<\br>
-          OSI is an open-source project, all the students out there can contribute by putting in internships which in case
-          we have missed.<\br>
-          It is a project of students, by students, for students.😉
+          at one place. Students no longer have to waste precious hours searching for them since we are here. <br>
+          It is an open-source project, all the students out there can contribute by putting in internships which in case
+          we have missed.<br><br>
+         <b> It is a project of students, by students, for students.😉</b>
 
         </div>
       </v-card-text>

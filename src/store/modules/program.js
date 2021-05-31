@@ -17,7 +17,7 @@ const state = {
             image: 'https://news.mlh.io/wp-content/uploads/2020/08/fellowship.jpg',
             title: 'MLH Open Source Fellowship',
             start_date: 'June, September',
-            end_date: 'June, September',
+            end_date: 'August, December',
             perks: { swags: true, stipend: true, cash_price: false, internships_opportunity: false, certificates: true, surprise_gifts: false },
             description: 'The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you\'ll contribute to the type of Open Source projects that every company depends on.',
             timeline: 'https://fellowship.mlh.io/programs/open-source',
@@ -86,7 +86,7 @@ const state = {
         //     link: '',
         //     color: '#DCE5FD',
         // },
-        
+
         // Color combination
         // 1 CAF4F4
         // 2 FDE0D9

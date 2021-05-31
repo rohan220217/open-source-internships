@@ -27,7 +27,7 @@
         </v-tabs>
       </v-card>
       <div class="mt-3">
-        <v-tabs-items v-model="tab" class="pa-4">
+        <v-tabs-items v-model="tab" class="py-4">
           <v-tab-item>
             <Programs />
           </v-tab-item>
@@ -83,7 +83,7 @@ export default {
     return {
       tab: null,
       show: false,
-      items: ["Programs", "Competitions", "University SoC/WoC"],
+      items: ["Programs", "Competitions", "Universities"],
     };
   },
 };

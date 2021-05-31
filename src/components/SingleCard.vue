@@ -104,7 +104,7 @@
         <div v-show="show">
           <v-divider></v-divider>
 
-          <v-card-text>
+          <v-card-text class="text-justify">
             {{ content.description }}
           </v-card-text>
         </div>
