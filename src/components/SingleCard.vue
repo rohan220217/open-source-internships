@@ -1,11 +1,18 @@
 <template>
   <v-hover v-slot="{ hover }">
-    <v-card :elevation="hover ? 8 : 0" :color="content.color" class="pa-2" light>
+    <v-card
+      :elevation="hover ? 8 : 0"
+      :color="content.color"
+      class="pa-2"
+      light
+    >
       <v-img
+        @click="openLink(content.link)"
         :src="content.image"
         :lazy-src="content.image"
         height="100px"
         contain
+        style="cursor: pointer"
       >
         <template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
