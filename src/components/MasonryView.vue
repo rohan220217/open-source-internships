@@ -1,6 +1,6 @@
 <template>
   <v-row
-    v-masonry="`container-masonry`"
+    v-masonry="`${name}-container-masonry`"
     transition-duration="0.3s"
     item-selector=".item"
   >
@@ -10,25 +10,29 @@
       cols="12"
       md="4"
       sm="6"
-      v-for="program in allPrograms"
+      v-for="program in data"
       :key="program._id"
     >
-      <single-card :content="program"></single-card> </v-col
+      <single-card @toggle="toggleCard" :content="program"></single-card> </v-col
   ></v-row>
 </template>
-
 <script>
-import { mapGetters } from "vuex";
 import SingleCard from "../components/SingleCard";
 export default {
-  computed: {
-    ...mapGetters(["allPrograms"]),
+  props : {
+    data : Array,
+    name : String
   },
   components: {
     SingleCard,
   },
+  methods : {
+    toggleCard(){
+      this.$redrawVueMasonry(`${this.name}-container-masonry`)
+    }
+  },
 };
 </script>
-
 <style>
+
 </style>
