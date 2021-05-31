@@ -95,12 +95,12 @@
 
         <v-spacer></v-spacer>
 
-        <v-btn icon @click="show = !show">
+        <v-btn icon @click="toggleChevron()">
           <v-icon>{{ show ? "mdi-chevron-up" : "mdi-chevron-down" }}</v-icon>
         </v-btn>
       </v-card-actions>
 
-      <v-expand-transition>
+      <!-- <v-expand-transition> -->
         <div v-show="show">
           <v-divider></v-divider>
 
@@ -108,7 +108,7 @@
             {{ content.description }}
           </v-card-text>
         </div>
-      </v-expand-transition>
+      <!-- </v-expand-transition> -->
     </v-card>
   </v-hover>
 </template>
@@ -129,6 +129,13 @@ export default {
     openLink(link) {
       window.open(link, "_blank");
     },
+    toggleChevron(){
+      this.show = !this.show
+      let _vm = this
+      setTimeout(function(){
+        _vm.$emit('toggle')  
+      }, 10) 
+    }
   },
 };
 </script>
