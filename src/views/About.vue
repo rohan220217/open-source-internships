@@ -17,10 +17,15 @@
       <v-card-text>
         <p class="headline" style="color: #3f51b5">About</p>
         <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          numquam magni consectetur reiciendis sunt deserunt ea voluptatem,
-          totam similique porro cumque, non incidunt commodi, aspernatur in quam
-          rem excepturi. Eligendi.
+        
+          For all the Computer science students out there, it is a strenuous task to look for open source internships, 
+          different types of coding competitions happening around the year. <br><br>
+          OSI is an idea to help the student community by providing them all kind of open-source opportunities for them 
+          at one place. Students no longer have to waste precious hours searching for them since we are here. <br>
+          It is an open-source project, all the students out there can contribute by putting in internships which in case
+          we have missed.<br><br>
+         <b> It is a project of students, by students, for students.😉</b>
+
         </div>
       </v-card-text>
     </v-card>
