@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="GIF" src="https://github.com/rohan220217/open-source-internships/blob/main/src/assets/cover.gif" />
+<img alt="GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
 <br />
 <br />
 
