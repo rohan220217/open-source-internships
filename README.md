@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Cover GIF" height= "500" width = "1000" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
+<img alt="Cover GIF" height= "400" width = "900" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
 <br />
 <br />
 
