@@ -16,16 +16,15 @@
 </div>
   
 ## Overview 👀 
-Solarized dark             |  Solarized Ocean
+Dark Theme        |  Light Theme
 :-------------------------:|:-------------------------:
-![](https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif)  |  ![](https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif)
+![](https://github.com/rohan220217/open-source-internships/blob/main/github_img/cover1.gif)  |  ![](https://github.com/rohan220217/open-source-internships/blob/main/github_img/cover2.gif)
 
 <!--   
 <img align="left" width="450" alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
 
 <img align="right" width="450" alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" /> -->
 
-<br />
 
 ## Run locally 🛠
 
