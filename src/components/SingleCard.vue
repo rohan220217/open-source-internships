@@ -129,6 +129,7 @@ export default {
     openLink(link) {
       window.open(link, "_blank");
     },
+
   },
 };
 </script>
