@@ -6,8 +6,16 @@ import vuetify from './plugins/vuetify'
 // Masonry Plugin
 import { VueMasonryPlugin } from 'vue-masonry'
 
+// Google Analytics
+// import VueGtag from "vue-gtag";
+// Vue.use(VueGtag, {
+//   config: { id: "UA-274242241-1 " }
+// });
+
 import store from './store'
 Vue.use(VueMasonryPlugin)
+
+
 
 Vue.config.productionTip = false
 

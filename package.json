@@ -9,6 +9,7 @@
   "dependencies": {
     "particles.js": "^2.0.0",
     "vue": "^2.6.11",
+    "vue-gtag": "^1.16.1",
     "vue-masonry": "^0.13.0",
     "vue-router": "^3.2.0",
     "vuetify": "^2.4.0",
