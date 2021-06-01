@@ -1,3 +1,6 @@
+# Open Source Internships
+[![Vue](https://img.shields.io/badge/JavaScript_framework-Vue-success?style=flat-square&logo=vue.js&logoColor=white)](https://vuejs.org/)
+
 <div align="center">
 <img alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
 <br />
