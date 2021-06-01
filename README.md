@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="GIF" src="https://github.com/rohan220217/open-source-internships/blob/main/src/assets/logo2.gif" />
+<img alt="GIF" src="https://github.com/rohan220217/open-source-internships/blob/main/src/assets/cover.gif" />
 <br />
 <br />
 
@@ -45,6 +45,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 <div align="center">
-  
+
 ### Show some ❤️ by starring some of the repositories!
 </div>
