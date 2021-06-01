@@ -2,10 +2,6 @@
 [![Vue](https://img.shields.io/badge/JavaScript_framework-Vue-success?style=flat-square&logo=vue.js&logoColor=white)](https://vuejs.org/)
 
 <div align="center">
-<img alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
-<br />
-<br />
-
 <p align ="center" style="margin-top: 10px">
 <a href = "https://github.com/rohan220217/open-source-internships/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/rohan220217/open-source-internships?style=flat&labelColor=343b41"/></a>
 <a href ="https://github.com/rohan220217/open-source-internships/pulls"><img alt="pull-requests" src="https://img.shields.io/github/issues-pr/rohan220217/open-source-internships?style=flat&labelColor=343b41"/></a>
@@ -14,7 +10,7 @@
 <a href = "https://github.com/rohan220217/open-source-internships/graphs/contributors"><img alt="contributors" src="https://img.shields.io/github/contributors/rohan220217/open-source-internships?style=flat&labelColor=343b41"/></a>
 
 </p>
-
+<img alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" />
 </div>
 
 
