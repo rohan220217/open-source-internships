@@ -29,17 +29,18 @@
       <div class="mt-3">
         <v-tabs-items v-model="tab" class="py-4">
           <v-tab-item>
-            <Programs />
+            <masonry-view name="programs" :data="allPrograms"></masonry-view>
+            <!-- <Programs :is_current="isCurrentTab(0)" /> -->
+          </v-tab-item>
+          <v-tab-item >
+            <masonry-view name="competitions" :data="allCompetitions"></masonry-view>
+            <!-- <Competition :is_current="isCurrentTab(1)" /> -->
           </v-tab-item>
           <v-tab-item>
-            <Competition />
-          </v-tab-item>
-          <v-tab-item>
-            <University />
+            <masonry-view name="universities" :data="allUniversity"></masonry-view>
+            <!-- <University :is_current="isCurrentTab(2)" /> -->
           </v-tab-item>
         </v-tabs-items>
-        <v-tabs-items v-model="tab" class="pa-4"> </v-tabs-items>
-        <v-tabs-items v-model="tab" class="pa-4"> </v-tabs-items>
       </div>
     </v-container>
     <v-tooltip left>
@@ -67,17 +68,17 @@
 </template>
 
 <script>
-import Programs from "../components/Programs";
-import University from "../components/University";
-import Competition from "../components/Competition";
+import {mapGetters} from 'vuex'
+import MasonryView from "../components/MasonryView";
 
 export default {
   name: "Home",
 
   components: {
-    Competition,
-    University,
-    Programs,
+    MasonryView
+  },
+  computed : {
+    ...mapGetters(['allPrograms', 'allCompetitions', 'allUniversity'])
   },
   data() {
     return {
@@ -86,6 +87,11 @@ export default {
       items: ["Programs", "Competitions", "Universities"],
     };
   },
+  methods : {
+    isCurrentTab(tab_index){
+      return (this.tab == tab_index)
+    }
+  }
 };
 </script>
 <style scoped>

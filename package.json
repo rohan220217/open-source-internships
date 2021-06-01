@@ -1,6 +1,6 @@
 {
   "name": "open-source-internships",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -19,7 +19,7 @@
     "@vue/cli-plugin-vuex": "^4.5.13",
     "@vue/cli-service": "~4.5.0",
     "node-sass": "^4.12.0",
-    "sass": "^1.32.0",
+    "sass": "^1.32.13",
     "sass-loader": "^10.0.0",
     "vue-cli-plugin-vuetify": "^2.4.0",
     "vue-template-compiler": "^2.6.11",
