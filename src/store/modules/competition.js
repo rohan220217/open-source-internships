@@ -14,7 +14,7 @@ const state = {
         },
         {
             _id: 1,
-            image: 'https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/10/codeheat-logo-big.png?w=1200',
+            image: 'https://codeheat.org/img/logo-dark.png',
             title: 'FOSSASIA Codeheat',
             start_date: 'October',
             end_date: 'June',

@@ -32,12 +32,18 @@
             <masonry-view name="programs" :data="allPrograms"></masonry-view>
             <!-- <Programs :is_current="isCurrentTab(0)" /> -->
           </v-tab-item>
-          <v-tab-item >
-            <masonry-view name="competitions" :data="allCompetitions"></masonry-view>
+          <v-tab-item>
+            <masonry-view
+              name="competitions"
+              :data="allCompetitions"
+            ></masonry-view>
             <!-- <Competition :is_current="isCurrentTab(1)" /> -->
           </v-tab-item>
           <v-tab-item>
-            <masonry-view name="universities" :data="allUniversity"></masonry-view>
+            <masonry-view
+              name="universities"
+              :data="allUniversity"
+            ></masonry-view>
             <!-- <University :is_current="isCurrentTab(2)" /> -->
           </v-tab-item>
         </v-tabs-items>
@@ -53,12 +59,14 @@
           fab
           bottom
           right
-          color="purple"
+          color="orange lighten-1"
           style="bottom: 55px"
-          @click="$vuetify.theme.dark = !$vuetify.theme.dark;"
+          @click="$vuetify.theme.dark = !$vuetify.theme.dark"
         >
           <v-icon>{{
-            $vuetify.theme.dark ? "mdi-white-balance-sunny" : "mdi-weather-night"
+            $vuetify.theme.dark
+              ? "mdi-white-balance-sunny"
+              : "mdi-weather-night"
           }}</v-icon>
         </v-btn>
       </template>
@@ -68,17 +76,17 @@
 </template>
 
 <script>
-import {mapGetters} from 'vuex'
+import { mapGetters } from "vuex";
 import MasonryView from "../components/MasonryView";
 
 export default {
   name: "Home",
 
   components: {
-    MasonryView
+    MasonryView,
   },
-  computed : {
-    ...mapGetters(['allPrograms', 'allCompetitions', 'allUniversity'])
+  computed: {
+    ...mapGetters(["allPrograms", "allCompetitions", "allUniversity"]),
   },
   data() {
     return {
@@ -87,11 +95,11 @@ export default {
       items: ["Programs", "Competitions", "Universities"],
     };
   },
-  methods : {
-    isCurrentTab(tab_index){
-      return (this.tab == tab_index)
-    }
-  }
+  methods: {
+    isCurrentTab(tab_index) {
+      return this.tab == tab_index;
+    },
+  },
 };
 </script>
 <style scoped>
