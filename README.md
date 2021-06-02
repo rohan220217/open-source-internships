@@ -28,9 +28,11 @@ Dark Theme        |  Light Theme
 
 ## Run locally 🛠
 
+Fork this repo. [open-source-internships](https://github.com/rohan220217/open-source-internships/fork) 🚀
+
 Clone the repo. ⏬
 ```
-git clone https://github.com/rohan220217/open-source-internships.git
+git clone https://github.com/your_user_name_here/open-source-internships.git
 ```
 Change the folder location to your source code folder. 👉
 ```
@@ -57,5 +59,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <div align="center">
 
-### Show some ❤️ by starring some of the repositories!
+### Show some ❤️ by starring it!
 </div>
