@@ -2,12 +2,16 @@
   <div>
     <v-container>
       <v-card flat>
-        <v-card-title class="text-center justify-center py-6">
+        <v-card-title class="text-center justify-center py-2">
           <v-img
-            height="80"
+            height="100"
             width="0"
             contain
-            :src="require('@/assets/logo2.gif')"
+            :src="
+              $vuetify.theme.dark
+                ? require('@/assets/dark.gif')
+                : require('@/assets/light.gif')
+            "
           ></v-img>
           <!-- <h1 class="font-weight-bold display-1 basil--text">
           Open-Source-Internships
