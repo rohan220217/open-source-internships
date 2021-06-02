@@ -53,7 +53,7 @@
           fab
           bottom
           right
-          color="purple"
+          color="orange lighten-1"
           style="bottom: 55px"
           @click="$vuetify.theme.dark = !$vuetify.theme.dark;"
         >
