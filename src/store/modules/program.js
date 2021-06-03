@@ -296,7 +296,7 @@ const state = {
             title: 'PClub Summer Of Code',
             start_date: 'June',
             end_date: 'September',
-            perks: { swags: false, stipend: true, cash_price: true, internships_opportunity: true, certificates: true, surprise_gifts: true },
+            perks: { swags: true, stipend: false, cash_price: false, internships_opportunity: false, certificates: true, surprise_gifts: true },
             description: 'PClub Summer of Code is the 2 month long Open Source program during summers conducted by Programming Club, UIET, with an aim to help beginners get started with Open Source Development while encouraging diversity. Throughout the program, participants contribute to different projects under guidance of experienced mentors. Mentors get to make their ideas alive and Mentees get to learn tech',
             timeline: 'http://www.pclubsummerofcode.in/',
             link: 'http://www.pclubsummerofcode.in/',
