@@ -1,4 +1,5 @@
 <template>
+  <div>
   <v-container>
     <v-card flat>
       <v-card-title class="text-center justify-center py-2">
@@ -108,6 +109,30 @@
       </v-card-text>
     </v-card>
   </v-container>
+  <v-tooltip left>
+      <template #activator="{ on: tooltip }">
+        <v-btn
+          v-on="{ ...tooltip }"
+          absolute
+          dark
+          fixed
+          fab
+          bottom
+          right
+          color="orange lighten-1"
+          style="bottom: 55px"
+          @click="$vuetify.theme.dark = !$vuetify.theme.dark"
+        >
+          <v-icon>{{
+            $vuetify.theme.dark
+              ? "mdi-white-balance-sunny"
+              : "mdi-weather-night"
+          }}</v-icon>
+        </v-btn>
+      </template>
+      <span>Day/ Night Mode</span>
+    </v-tooltip>
+    </div>
 </template>
 
 <script>
