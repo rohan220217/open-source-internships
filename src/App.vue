@@ -2,7 +2,6 @@
   <v-app>
     <v-main>
       <div
-        id="studentQuiz"
         :style="[
           $vuetify.theme.dark
             ? { backgroundColor: 'black' }

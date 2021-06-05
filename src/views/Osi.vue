@@ -2,7 +2,16 @@
   <div>
     <v-container>
       <v-card flat>
-        <v-card-title class="text-center justify-center py-2">
+        <v-card-title class="justify-space-between py-2">
+          <iframe
+            class="hidden-sm-and-down"
+            src="https://ghbtns.com/github-btn.html?user=rohan220217&repo=open-source-internships&type=fork&count=true&size=large&v=2"
+            frameborder="0"
+            scrolling="0"
+            width="170"
+            height="30"
+            title="GitHub"
+          ></iframe>
           <v-img
             height="100"
             width="0"
@@ -13,11 +22,29 @@
                 : require('@/assets/light.gif')
             "
           ></v-img>
+
+          <iframe
+            class="hidden-sm-and-down"
+            src="https://ghbtns.com/github-btn.html?user=rohan220217&repo=open-source-internships&type=star&count=true&size=large&v=2"
+            frameborder="0"
+            scrolling="0"
+            width="170"
+            height="30"
+            title="GitHub"
+          ></iframe>
+          <iframe
+            class="hidden-sm-and-up mx-4"
+            src="https://ghbtns.com/github-btn.html?user=rohan220217&repo=open-source-internships&type=star&count=true"
+            frameborder="0"
+            scrolling="0"
+            width="80"
+            height="20"
+            title="GitHub"
+          ></iframe>
           <!-- <h1 class="font-weight-bold display-1 basil--text">
           Open-Source-Internships
         </h1> -->
         </v-card-title>
-
         <v-tabs
           show-arrows
           v-model="tab"
