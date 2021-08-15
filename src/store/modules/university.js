@@ -110,7 +110,7 @@ const state = {
         },
         {
             _id: 9,
-            image: 'https://devscript.tech/woc/img/WOC-logo.png',
+            image: 'https://dwoc.io/static/media/dwocfull-transparentW.b567c059.b567c059.png',
             title: 'DevScript Winter of Code (DWoC)',
             start_date: 'November',
             end_date: 'March',

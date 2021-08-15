@@ -228,7 +228,7 @@ const state = {
             timeline: 'https://numfocus.org/programs/john-hunter-technology-fellowship',
             link: 'https://numfocus.org/programs/john-hunter-technology-fellowship',
             color: '#CAEFD1',
-        },  
+        },
         {
             _id: 20,
             image: 'https://static.gnome.org/img/gnome-logo.svg',
@@ -264,7 +264,7 @@ const state = {
             timeline: 'https://developer.aliyun.com/',
             link: 'https://www.alibabacloud.com/blog/alibaba-summer-of-code-2020-leading-the-new-open-source-trend_596241',
             color: '#FFF2CC',
-        },   
+        },
         {
             _id: 23,
             image: 'https://linuxfoundation.org/wp-content/uploads/lf_logo.svg',
@@ -276,7 +276,7 @@ const state = {
             timeline: 'https://wiki.linuxfoundation.org/lkmp/lkmp_schedule',
             link: '',
             color: '#DCE5FD',
-        },       
+        },
         {
             _id: 24,
             image: 'https://linuxfoundation.org/wp-content/uploads/lf_logo.svg',
@@ -302,18 +302,6 @@ const state = {
             color: '#FFFF7E',
         },
         {
-            _id: 25,
-            image: 'http://www.pclubsummerofcode.in/static/mentors/img/pclub-logo.png',
-            title: 'PClub Summer Of Code',
-            start_date: 'June',
-            end_date: 'September',
-            perks: { swags: false, stipend: true, cash_price: true, internships_opportunity: true, certificates: true, surprise_gifts: true },
-            description: 'PClub Summer of Code is the 2 month long Open Source program during summers conducted by Programming Club, UIET, with an aim to help beginners get started with Open Source Development while encouraging diversity. Throughout the program, participants contribute to different projects under guidance of experienced mentors. Mentors get to make their ideas alive and Mentees get to learn tech',
-            timeline: 'http://www.pclubsummerofcode.in/',
-            link: 'http://www.pclubsummerofcode.in/',
-            color: '#FFFF7E',
-        },
-        {
             _id: 26,
             image: 'https://rubyme.org/rubyme.svg',
             title: 'RubyMe Mentorship Program',
@@ -324,8 +312,8 @@ const state = {
             timeline: 'NA',
             link: 'https://rubyme.org/',
             color: 'aad0f6',
-        },  
-             {
+        },
+        {
             _id: 27,
             image: 'https://letsgrowmore.in/wp-content/uploads/2021/05/growmore-removebg-preview.png',
             title: 'LetsGrowMore Summer Of Code (LGMSOC)',
@@ -336,8 +324,8 @@ const state = {
             timeline: 'https://letsgrowmore.in/soc/',
             link: 'https://letsgrowmore.in/',
             color: '#DCE5FD',
-        },    
-         {
+        },
+        {
             _id: 28,
             image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--HEes59x2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://media-exp1.licdn.com/dms/image/C4E0BAQGwlSC3kYclzg/company-logo_200_200/0/1591870925394%3Fe%3D2159024400%26v%3Dbeta%26t%3D4EqTkG6gcwyazMKuyKotSAtD0r5K-nvnkmEYe19jt5E',
             title: 'StudentCode-in',
@@ -348,7 +336,7 @@ const state = {
             timeline: 'https://studentcode-in.github.io/index.html',
             link: 'https://studentcode-in.github.io/index.html',
             color: '#FDE0D9',
-         },
+        },
         // Template 
 
         // {
