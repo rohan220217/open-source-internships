@@ -36,7 +36,7 @@ const state = {
                 link: 'https://www.drivendata.org/',
                 color: '#FFF2CC',
             },
-        {
+            {
                 _id: 3,
                 image: 'https://pbs.twimg.com/profile_images/1295732034279813123/ykLQzTnJ.png',
                 title: 'Hacktoberfest',
@@ -60,7 +60,7 @@ const state = {
                 link: 'https://24pullrequests.com/',
                 color: '#aad0f6',
             },
-        {
+            {
                 _id: 5,
                 image: 'https://halite.io/assets/images/full_logo.svg',
                 title: 'Halite AI Bot Challenge',
@@ -72,7 +72,7 @@ const state = {
                 link: 'https://halite.io/',
                 color: '#DCE5FD',
             },
-        {
+            {
                 _id: 6,
                 image: 'https://www.oss.kr/plugins/oss/components/Themes/OSS/assets/images/logo_oss.gif',
                 title: 'OSS World Challenge',
@@ -95,7 +95,7 @@ const state = {
                 timeline: 'NA',
                 link: 'http://sigmm.org/Resources/software/ossc',
                 color:'#DCE5FD'
-        },  
+            },  
             {
                 _id: 8,
                 image: 'https://gssoc.girlscript.tech/images/type.png',
@@ -132,7 +132,7 @@ const state = {
                 link: 'https://swoc.tech/',
                 color: '#CAF4F4',
             },    
-                   
+                  
 
 
     ],

@@ -14,7 +14,7 @@ const state = {
         },
         {
             _id: 1,
-            image: 'https://news.mlh.io/wp-content/uploads/2020/08/fellowship.jpg',
+            image: 'https://fellowship.mlh.io/_next/image?url=%2Fimg%2Flogo-light.svg&w=256&q=75',
             title: 'MLH Open Source Fellowship',
             start_date: 'June, September',
             end_date: 'August, December',
@@ -22,7 +22,7 @@ const state = {
             description: 'The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Instead of interning at a single company, on the Open Source Track you\'ll contribute to the type of Open Source projects that every company depends on.',
             timeline: 'https://fellowship.mlh.io/programs/open-source',
             link: 'https://fellowship.mlh.io/programs/open-source',
-            color: '#FDE0D9',
+            color: '#f6aad0',
         },
         {
             _id: 2,
@@ -240,8 +240,7 @@ const state = {
             timeline: 'https://wiki.gnome.org/Internships#Timeline',
             link: 'https://wiki.gnome.org/Internships',
             color: '#FDE0D9',
-        },   
-
+        },
         {
             _id: 21,
             image: 'https://omshinde.github.io/assets/images/earthEngine.jpg',
@@ -253,7 +252,7 @@ const state = {
             timeline: 'https://sites.google.com/view/summerofearthengine/timeline',
             link: 'https://sites.google.com/view/summerofearthengine/home',
             color: '#B3EE3A',
-        },        
+        },
         {
             _id: 22,
             image: 'https://www.programmersought.com/images/526/ed788428d79f3bf09e1c7afa209923ce.png',
@@ -266,7 +265,6 @@ const state = {
             link: 'https://www.alibabacloud.com/blog/alibaba-summer-of-code-2020-leading-the-new-open-source-trend_596241',
             color: '#FFF2CC',
         },   
-        
         {
             _id: 23,
             image: 'https://linuxfoundation.org/wp-content/uploads/lf_logo.svg',
@@ -277,9 +275,9 @@ const state = {
             description: 'The Linux Foundation Mentorship Program is designed to help developers — many of whom are first-time open source contributors — with necessary skills and resources to learn, experiment, and contribute effectively to open source communities. By participating in a mentorship program, mentees have the opportunity to learn from experienced open source contributors as a segue to get internship and job opportunities upon graduation.',
             timeline: 'https://wiki.linuxfoundation.org/lkmp/lkmp_schedule',
             link: '',
-             color: '#DCE5FD',
+            color: '#DCE5FD',
         },       
-                            {
+        {
             _id: 24,
             image: 'https://linuxfoundation.org/wp-content/uploads/lf_logo.svg',
             title: 'Community Bridge Mentorship (by Linux Foundation)',
@@ -290,7 +288,19 @@ const state = {
             timeline: 'NA',
             link: 'https://mentorship.lfx.linuxfoundation.org/#projects',
             color: '#FFA07A',
-        }, 
+        },
+        {
+            _id: 25,
+            image: 'http://www.pclubsummerofcode.in/static/mentors/img/pclub-logo.png',
+            title: 'PClub Summer Of Code',
+            start_date: 'June',
+            end_date: 'September',
+            perks: { swags: true, stipend: false, cash_price: false, internships_opportunity: false, certificates: true, surprise_gifts: true },
+            description: 'PClub Summer of Code is the 2 month long Open Source program during summers conducted by Programming Club, UIET, with an aim to help beginners get started with Open Source Development while encouraging diversity. Throughout the program, participants contribute to different projects under guidance of experienced mentors. Mentors get to make their ideas alive and Mentees get to learn tech',
+            timeline: 'http://www.pclubsummerofcode.in/',
+            link: 'http://www.pclubsummerofcode.in/',
+            color: '#FFFF7E',
+        },
         {
             _id: 25,
             image: 'http://www.pclubsummerofcode.in/static/mentors/img/pclub-logo.png',
@@ -337,11 +347,8 @@ const state = {
             description: 'STUDENT CODE-IN is founded with a vision to promote all-round information to those keen students who are here in the globe finding a way for their obstacle.',
             timeline: 'https://studentcode-in.github.io/index.html',
             link: 'https://studentcode-in.github.io/index.html',
-            color: '#CAF4F4',
-        },
-
-                
-
+            color: '#FDE0D9',
+         },
         // Template 
 
         // {

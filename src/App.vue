@@ -1,19 +1,18 @@
 <template>
   <v-app>
     <v-main>
-      <v-fade-transition mode="out-in">
-        <div
-          id="studentQuiz"
-          :style="[
-            $vuetify.theme.dark
-              ? { backgroundColor: 'black' }
-              : { backgroundColor: 'white' },
-          ]"
-        >
-          <div id="particles-js"></div>
+      <div
+        :style="[
+          $vuetify.theme.dark
+            ? { backgroundColor: 'black' }
+            : { backgroundColor: 'white' },
+        ]"
+      >
+        <div id="particles-js"></div>
+        <v-fade-transition mode="out-in">
           <router-view />
-        </div>
-      </v-fade-transition>
+        </v-fade-transition>
+      </div>
     </v-main>
     <app-bar></app-bar>
   </v-app>
@@ -143,7 +142,6 @@ export default {
       });
     },
   },
-
 };
 </script>
 <style>
