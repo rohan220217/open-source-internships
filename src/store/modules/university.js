@@ -120,6 +120,18 @@ const state = {
          link: 'https://devscript.tech/woc/',    
          color: '#aad0f6',
         },
+          {
+        _id: 10,
+        image: 'https://crosswoc.ieeedtu.in/images/imgcw.png',
+        title: 'CrossWoC by IEEE DTU',
+        start_date: 'January',
+        end_date: 'March',
+        perks: { swags: true, stipend: false, cash_price: false, internships_opportunity: false, certificates: false, surprise_gifts: false },
+        description: 'CrossWoC is a six-week long opensource event organised by IEEE DTU & IEEE DTU CS, which gives programmers and innovators an opportunity to bring out their nascent talent and find intriguing solutions to real-world problems. It provides a platform for developers to dig deeper into their gray matter and bring out their latent creativity through open source.',
+        timeline: 'https://crosswoc.ieeedtu.in/',
+        link: 'https://crosswoc.ieeedtu.in/',
+        color: '#FFFF7E',
+    },
     ],
 
     // Template 
