@@ -41,6 +41,8 @@ This is your one-stop shop for all your open source needs!
 
 Save time spent searching for open source opportunities and get to contributing sooner!
 
+And remember, **this is a project of students, by students, for students.**
+
 ## Run locally 🛠
 
 Fork this repo. [open-source-internships](https://github.com/rohan220217/open-source-internships/fork) 🚀
@@ -72,7 +74,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 -->
 
 ### Technologies
-
+Open Source Internships is powered by JavaScript, Vue.js, and HTML.
 
 
 <div align="center">
