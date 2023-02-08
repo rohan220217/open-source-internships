@@ -73,6 +73,11 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 -->
 
+### Contributing
+Don't see an open source internship and/or competition you're looking for? 
+
+Feel free to contribute it to our site by creating a pull request!
+
 ### Technologies
 Open Source Internships is powered by JavaScript, Vue.js, and HTML.
 
