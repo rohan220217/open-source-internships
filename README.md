@@ -28,9 +28,18 @@ Dark Theme        |  Light Theme
 ## Why open source internships?
 
 Are you a computer science student looking for an open source internship?
+
 Looking to compete in an open source competition?
+
 Looking for an open source club at your university?
+
 Then look no further than open source internships!
+
+This is your one-stop shop for all your open source needs!
+
+Save time spent searching for open source opportunities and get to contributing sooner!
+
+Open source internships is a JavaSript based web-app 
 
 ## Run locally 🛠
 
@@ -61,6 +70,9 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 -->
+
+### Technologies
+
 
 
 <div align="center">
