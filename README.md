@@ -25,7 +25,9 @@ Dark Theme        |  Light Theme
 
 <img align="right" width="450" alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" /> -->
 
-## Why open source internships?
+Open Source Internships is a Vue-based web app created to collect a variety of open source opportunities.
+
+## Why Open Source Internships?
 
 Are you a computer science student looking for an open source internship?
 
