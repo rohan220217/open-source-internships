@@ -25,6 +25,12 @@ Dark Theme        |  Light Theme
 
 <img align="right" width="450" alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" /> -->
 
+## Why open source internships?
+
+Are you a computer science student looking for an open source internship?
+Looking to compete in an open source competition?
+Looking for an open source club at your university?
+Then look no further than open source internships!
 
 ## Run locally 🛠
 
