@@ -41,8 +41,6 @@ This is your one-stop shop for all your open source needs!
 
 Save time spent searching for open source opportunities and get to contributing sooner!
 
-Open source internships is a JavaSript based web-app 
-
 ## Run locally 🛠
 
 Fork this repo. [open-source-internships](https://github.com/rohan220217/open-source-internships/fork) 🚀
