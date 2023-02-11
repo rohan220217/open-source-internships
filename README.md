@@ -25,6 +25,23 @@ Dark Theme        |  Light Theme
 
 <img align="right" width="450" alt="Cover GIF" src="https://github.com/hrithik254/open-source-internships/blob/main/src/assets/cover.gif" /> -->
 
+Open Source Internships is a Vue-based web app created to collect a variety of open source opportunities.
+
+## Why Open Source Internships?
+
+Are you a computer science student looking for an open source internship?
+
+Looking to compete in an open source competition?
+
+Looking for an open source club at your university?
+
+Then look no further than open source internships!
+
+This is your one-stop shop for all your open source needs!
+
+Save time spent searching for open source opportunities and get to contributing sooner!
+
+And remember, **this is a project of students, by students, for students.**
 
 ## Run locally 🛠
 
@@ -55,6 +72,14 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 -->
+
+### Contributing
+Don't see an open source internship and/or competition you're looking for? 
+
+Feel free to contribute it to our site by creating a pull request!
+
+### Technologies
+Open Source Internships is powered by JavaScript, Vue.js, and HTML.
 
 
 <div align="center">
