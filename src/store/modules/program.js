@@ -339,7 +339,7 @@ const state = {
         },
         {
             _id: 29,
-            image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--HEes59x2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://media-exp1.licdn.com/dms/image/C4E0BAQGwlSC3kYclzg/company-logo_200_200/0/1591870925394%3Fe%3D2159024400%26v%3Dbeta%26t%3D4EqTkG6gcwyazMKuyKotSAtD0r5K-nvnkmEYe19jt5E',
+            image: 'https://www.gitbook.com/cdn-cgi/image/width=256,dpr=2,height=40,fit=contain,format=auto/https%3A%2F%2F2145393087-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-M2DCN9UgoRgMEkgnLyP%252Favatar-rectangle-1585604471774.png%3Fgeneration%3D1585604472247466%26alt%3Dmedia',
             title: 'Linux Foundation Mentorship Program (LFX)',
             start_date: '1st June',
             end_date: '31st August',
