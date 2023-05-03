@@ -337,6 +337,18 @@ const state = {
             link: 'https://studentcode-in.github.io/index.html',
             color: '#FDE0D9',
         },
+        {
+            _id: 29,
+            image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--HEes59x2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://media-exp1.licdn.com/dms/image/C4E0BAQGwlSC3kYclzg/company-logo_200_200/0/1591870925394%3Fe%3D2159024400%26v%3Dbeta%26t%3D4EqTkG6gcwyazMKuyKotSAtD0r5K-nvnkmEYe19jt5E',
+            title: 'Linux Foundation Mentorship Program (LFX)',
+            start_date: '1st June',
+            end_date: '31st August',
+            perks: { stipend: true, certificates: true },
+            description: 'This program is organized by The Linux Foundation and aims to pair open source talent with experienced mentors. The students identify a project and create a profile to submit an application. Mentees can apply to 3 projects at a time.',
+            timeline: 'https://mentorship.lfx.linuxfoundation.org/#projects_all',
+            link: 'https://mentorship.lfx.linuxfoundation.org/#projects_all',
+            color: '#CAF4F4',
+        },
         // Template 
 
         // {
